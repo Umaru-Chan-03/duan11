@@ -1,0 +1,27 @@
+body {
+  background-image: url(/img/_true__umaru__himouto__umaru_chan__by_klikster-d99l0ye.png);
+}
+h1 {
+  opacity: 100%;
+  color: blue;
+  font-style: italic;
+}
+h2 {
+  opacity: 0.4;
+}
+h3 {
+  display: none;
+  background-color: blue;
+}
+h4 {
+  visibility: hidden;
+}
+h5 {
+  opacity: 0;
+}
+/* Xác định thuộc tính Hiển thị phần tử con */
+span {
+  opacity: 1;
+  display: block;
+  visibility: visible;
+}
