@@ -22,6 +22,8 @@ h5 {
 /* Xác định thuộc tính Hiển thị phần tử con */
 span {
   opacity: 1;
+  /* Do có display: block nên phần tử biến thành block-level, nên nó bị xuống dòng là hành vi mặc định.
+  Nếu bạn muốn phần tử vừa inline mà vẫn có thể chỉnh style nâng cao (mà không xuống dòng), bạn có thể dùng display: inline-block. */
   display: block;
   visibility: visible;
 }
